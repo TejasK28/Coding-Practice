@@ -12,5 +12,11 @@ int main()
     scanf("%s", name);
     printf("Your name is: %s\n", name);
 
+    //fgets()
+    char occupation[15];
+    printf("What is your occupation?");
+    fgets(occupation, 15, stdin);
+    printf("your occupation is: %s\n", occupation);
+
     return 0;
 }
