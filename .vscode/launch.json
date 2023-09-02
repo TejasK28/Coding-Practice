@@ -2,6 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "comparator",
+      "request": "launch",
+      "mainClass": "Java.comparator",
+      "projectName": "Coding-Practice_2aae0e1c"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
