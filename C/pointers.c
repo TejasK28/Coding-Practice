@@ -9,7 +9,7 @@ int main()
 
 
     printf("%p\n", aptr); //  without *, you get address
-    printf("%d\n", *aptr); // with *, you get the value 
+    printf("%d\n", *aptr); // with *, you get the content 
 
     return 0;
 }
