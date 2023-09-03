@@ -1,14 +1,17 @@
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
+#include <stdlib.h>
 
 int main()
 {
-    char buf[20];
+    char * cPtr = malloc(sizeof(char) * 20);
 
-    printf("Type in your name: \n> ");
-    fgets(buf, 20, stdin);
-    printf("\nHello %s\n", buf);
+    if(cPtr == NULL) return 1;
+    
+    printf("Name?\n");
+    fgets(cPtr, 20, stdin);
+    printf("Greeting! Your name is %s", cPtr);
 
     return 0;
 }
